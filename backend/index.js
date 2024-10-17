@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 app.use(cors({
   origin: ["https://scholar-management-system-mern.vercel.app/"],
-  methods: ['GET, POST, PUT, DELETE'],
+  methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
 
