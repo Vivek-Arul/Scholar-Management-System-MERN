@@ -10,7 +10,7 @@ export const DELETE_SCHOLAR = 'DELETE_SCHOLAR';
 export const fetchScholars = () => async (dispatch) => {
   dispatch({ type: FETCH_SCHOLARS_REQUEST });
   try {
-    const response = await axios.get('http://scholar-management-system-mern.vercel.app/api/scholars');
+    const response = await axios.get('https://scholar-management-system-mern.vercel.app/api/scholars');
     dispatch({ type: FETCH_SCHOLARS_SUCCESS, payload: response.data });
   } catch (error) {
     dispatch({ type: FETCH_SCHOLARS_FAILURE, payload: error.message });
@@ -19,7 +19,7 @@ export const fetchScholars = () => async (dispatch) => {
 
 export const addScholar = (scholar) => async (dispatch) => {
   try {
-    const response = await axios.post('http://scholar-management-system-mern.vercel.app/api/scholars', scholar);
+    const response = await axios.post('https://scholar-management-system-mern.vercel.app/api/scholars', scholar);
     dispatch({ type: ADD_SCHOLAR, payload: response.data });
     alert("Scholar Added Successfully");
   } catch (error) {
@@ -30,7 +30,7 @@ export const addScholar = (scholar) => async (dispatch) => {
 
 export const updateScholar = (scholar) => async (dispatch) => {
   try {
-    const response = await axios.put(`http://scholar-management-system-mern.vercel.app/api/scholars/${scholar.orcid}`, scholar);
+    const response = await axios.put(`https://scholar-management-system-mern.vercel.app/api/scholars/${scholar.orcid}`, scholar);
     dispatch({ type: UPDATE_SCHOLAR, payload: response.data });
     alert("Scholar Updated Successfully");
   } catch (error) {
@@ -41,7 +41,7 @@ export const updateScholar = (scholar) => async (dispatch) => {
 
 export const deleteScholar = (orcid) => async (dispatch) => {
   try {
-    await axios.delete(`http://scholar-management-system-mern.vercel.app/api/scholars/${orcid}`);
+    await axios.delete(`https://scholar-management-system-mern.vercel.app/api/scholars/${orcid}`);
     dispatch({ type: DELETE_SCHOLAR, payload: orcid });
     alert("Scholar Deleted Successfully");
   } catch (error) {
