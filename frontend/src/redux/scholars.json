@@ -1,0 +1,162 @@
+[
+  {
+    "researchWorks": {
+      "articles": 10,
+      "journals": 5,
+      "bookChapters": 2,
+      "conferences": 6,
+      "workshops": 4
+    },
+    "_id": "6704d1afeefff251d734623b",
+    "name": "John Doe",
+    "department": "Computer Science Engineering",
+    "orcid": "0000-0001-2345-6789",
+    "googleScholar": "https://scholar.google.com/johndoe",
+    "sciencedirect": "https://sciencedirect.com/johndoe",
+    "scopus": "https://scopus.com/johndoe"
+  },
+  {
+    "researchWorks": {
+      "articles": 8,
+      "journals": 4,
+      "bookChapters": 3,
+      "conferences": 2,
+      "workshops": 6
+    },
+    "_id": "6704d1afeefff251d734623c",
+    "name": "Jane Smith",
+    "department": "Information Technology",
+    "orcid": "0000-0002-3456-7890",
+    "googleScholar": "https://scholar.google.com/janesmith",
+    "sciencedirect": "https://sciencedirect.com/janesmith",
+    "scopus": "https://scopus.com/janesmith"
+  },
+  {
+    "researchWorks": {
+      "articles": 12,
+      "journals": 7,
+      "bookChapters": 1,
+      "conferences": 5,
+      "workshops": 3
+    },
+    "_id": "6704d1afeefff251d734623d",
+    "name": "Alice Johnson",
+    "department": "Mechanical Engineering",
+    "orcid": "0000-0003-4567-8910",
+    "googleScholar": "https://scholar.google.com/alicejohnson",
+    "sciencedirect": "https://sciencedirect.com/alicejohnson",
+    "scopus": "https://scopus.com/alicejohnson"
+  },
+  {
+    "researchWorks": {
+      "articles": 7,
+      "journals": 6,
+      "bookChapters": 2,
+      "conferences": 4,
+      "workshops": 5
+    },
+    "_id": "6704d1afeefff251d734623e",
+    "name": "Bob Brown",
+    "department": "Civil Engineering",
+    "orcid": "0000-0004-5678-9012",
+    "googleScholar": "https://scholar.google.com/bobbrown",
+    "sciencedirect": "https://sciencedirect.com/bobbrown",
+    "scopus": "https://scopus.com/bobbrown"
+  },
+  {
+    "researchWorks": {
+      "articles": 9,
+      "journals": 5,
+      "bookChapters": 1,
+      "conferences": 3,
+      "workshops": 7
+    },
+    "_id": "6704d1afeefff251d734623f",
+    "name": "Clara Lee",
+    "department": "Electronics and Communication Engineering",
+    "orcid": "0000-0005-6789-0123",
+    "googleScholar": "https://scholar.google.com/claralee",
+    "sciencedirect": "https://sciencedirect.com/claralee",
+    "scopus": "https://scopus.com/claralee"
+  },
+  {
+    "researchWorks": {
+      "articles": 6,
+      "journals": 4,
+      "bookChapters": 2,
+      "conferences": 6,
+      "workshops": 4
+    },
+    "_id": "6704d1afeefff251d7346240",
+    "name": "David White",
+    "department": "Information Technology",
+    "orcid": "0000-0006-7890-1234",
+    "googleScholar": "https://scholar.google.com/davidwhite",
+    "sciencedirect": "https://sciencedirect.com/davidwhite",
+    "scopus": "https://scopus.com/davidwhite"
+  },
+  {
+    "researchWorks": {
+      "articles": 11,
+      "journals": 6,
+      "bookChapters": 3,
+      "conferences": 5,
+      "workshops": 2
+    },
+    "_id": "6704d1afeefff251d7346241",
+    "name": "Eva Green",
+    "department": "Computer Science Engineering",
+    "orcid": "0000-0007-8901-2345",
+    "googleScholar": "https://scholar.google.com/evagreen",
+    "sciencedirect": "https://sciencedirect.com/evagreen",
+    "scopus": "https://scopus.com/evagreen"
+  },
+  {
+    "researchWorks": {
+      "articles": 5,
+      "journals": 3,
+      "bookChapters": 1,
+      "conferences": 7,
+      "workshops": 3
+    },
+    "_id": "6704d1afeefff251d7346242",
+    "name": "Frank Harris",
+    "department": "Mechanical Engineering",
+    "orcid": "0000-0008-9012-3456",
+    "googleScholar": "https://scholar.google.com/frankharris",
+    "sciencedirect": "https://sciencedirect.com/frankharris",
+    "scopus": "https://scopus.com/frankharris"
+  },
+  {
+    "researchWorks": {
+      "articles": 13,
+      "journals": 8,
+      "bookChapters": 4,
+      "conferences": 3,
+      "workshops": 5
+    },
+    "_id": "6704d1afeefff251d7346243",
+    "name": "Grace King",
+    "department": "Civil Engineering",
+    "orcid": "0000-0009-0123-4567",
+    "googleScholar": "https://scholar.google.com/graceking",
+    "sciencedirect": "https://sciencedirect.com/graceking",
+    "scopus": "https://scopus.com/graceking"
+  },
+  {
+    "researchWorks": {
+      "articles": 14,
+      "journals": 9,
+      "bookChapters": 5,
+      "conferences": 4,
+      "workshops": 6
+    },
+    "_id": "6704d1afeefff251d7346244",
+    "name": "Henry Black",
+    "department": "Electronics and Communication Engineering",
+    "orcid": "0000-0010-1234-5678",
+    "googleScholar": "https://scholar.google.com/henryblack",
+    "sciencedirect": "https://sciencedirect.com/henryblack",
+    "scopus": "https://scopus.com/henryblack"
+  }
+]

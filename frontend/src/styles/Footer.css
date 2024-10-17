@@ -1,0 +1,26 @@
+/* src/styles/Footer.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #f8f9fa; /* Adjust as needed */
+  color: #212529; /* Adjust as needed */
+}
+
+footer p {
+  margin: 0;
+  padding: 1rem; /* Adjust padding as needed */
+  font-size: 0.9rem; /* Adjust font size as needed */
+}
+
+footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
+}

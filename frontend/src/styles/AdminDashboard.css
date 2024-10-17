@@ -1,0 +1,40 @@
+  .custom-table {
+    width: 100%;                 /* Full width */
+    border-collapse: collapse;   /* Remove cell spacing */
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 12px 15px;         /* Padding inside cells */
+    text-align: left;           /* Left align text */
+    border-bottom: 1px solid #ddd; /* Border under each row */
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2; /* Light gray background for header */
+  }
+  
+  .custom-table tr:hover {
+    background-color: #f1f1f1; /* Light gray background on row hover */
+  }
+  
+  .btn-warning, .btn-danger {
+    padding: 5px 10px;        /* Button padding */
+    border: none;             /* No border */
+    color: white;             /* Text color */
+    cursor: pointer;          /* Pointer cursor */
+    margin-right: 5px;       /* Space between buttons */
+    border-radius: 4px;      /* Rounded corners */
+  }
+  
+  .btn-warning {
+    background-color: orange; /* Warning button color */
+  }
+  
+  .btn-danger {
+    background-color: red;    /* Danger button color */
+  }
+  
+  .text-center {
+    text-align: center;        /* Center text */
+  }
+  

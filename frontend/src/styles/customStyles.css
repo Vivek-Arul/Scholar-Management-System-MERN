@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+    height: 100%;
+    margin: 0;
+  }
+
+  /* Hero Section */
+  .hero {
+    background: url('https://via.placeholder.com/1920x400') no-repeat center center/cover;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Card Styles */
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #007bff;
+  }
+  
+  .card-body {
+    background-color: #f8f9fa;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-group-item {
+    border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .navbar {
+  
+    margin-bottom: 20px; /* Space between navbar and content */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  /* Dropdown menu customization */
+  .dropdown-menu {
+    min-width: 200px; /* Adjust width as needed */
+  }
+  
+  /* Footer customization */
+  footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  

@@ -1,0 +1,60 @@
+.table {
+  width: 100%; /* Ensure the table takes full width */
+  table-layout: fixed; /* Enables fixed layout for equal spacing */
+}
+
+.table th,
+.table td {
+  text-align: left; /* Aligns text to the left */
+  padding: 8px; /* Adds some padding to cells */
+  overflow: hidden; /* Ensures overflow text is hidden */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.table th {
+  background-color: #f8f9fa; /* Light background for header */
+  border-bottom: 2px solid #dee2e6; /* Bottom border for header */
+}
+
+.table td {
+  border-bottom: 1px solid #dee2e6; /* Bottom border for table rows */
+}
+
+/* Set specific widths for each column */
+.table th:nth-child(1), /* Name column */
+.table td:nth-child(1) {
+  width: 60%; /* Adjust width as necessary */
+}
+
+.table th:nth-child(2), /* ORCID column */
+.table td:nth-child(2) {
+  width: 40%; /* Adjust width as necessary */
+}
+
+/* Tooltip styles */
+.orcid-tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  visibility: visible;
+  width: 200px; /* Adjust as needed */
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Adjust to position above ORCID text */
+  left: 50%; /* Center the tooltip */
+  transform: translateX(-50%); /* Center tooltip horizontally */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.orcid-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1; /* Show tooltip on hover */
+}
